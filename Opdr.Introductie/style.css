@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+}
+header {
+  display: grid;
+  grid-template-columns: 350px 100px;
+  padding: 20px 30px 0px 30px;
+}
+.box {
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 500px;
+  margin: 20px 10px;
+}
+span {
+  color: gray;
+  font-weight: lighter;
+}
+h1 {
+  font-weight: bolder;
+}
+p {
+  font-size: 25px;
+  padding: 0px 30px;
+}
+hr {
+  width: 100%;
+  margin-top: 30px;
+}
+.btn {
+  text-align: center;
+}
+button {
+  background-color: white;
+  width: 230px;
+  height: 60px;
+  margin: 20px auto;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+}
+.green {
+  color: lightgreen;
+  border: 2px solid lightgreen;
+  border-right: white;
+  border-radius: 5px 0 0 5px;
+}
+.red {
+  color: red;
+  border: 2px solid red;
+  border-radius: 0 5px 5px 0;
+}
